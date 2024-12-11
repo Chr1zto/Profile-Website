@@ -5,6 +5,7 @@
   
   body {
     font-family: "Poppins", sans-serif;
+    background-color: azure;
   }
   
   html {
@@ -26,6 +27,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  background-color: wheat;
 }
 
 .nav-links {
@@ -50,6 +52,7 @@ a:hover {
 .logo{
     font-size: 2rem;
 }
+
 /* SECTIONS */
 
 section {
@@ -201,7 +204,131 @@ section {
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   margin: auto 0;
+}
+
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+
+
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+/* ABOUT PROJECTS*/
+main {
+  padding: 50px 20px;
+}
+
+.project-detail {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.project-subtitle {
+  font-size: 20px;
+  color: #777;
+}
+
+.project-content {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  flex: 1;
+  max-width: 600px;
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-description {
+  flex: 1;
+  max-width: 600px;
+}
+
+.project-description h2,
+.project-description h3 {
+  color: #333;
+}
+
+.project-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.project-description ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project-description a.project-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.project-description a.project-link:hover {
+  background-color: #0056b3;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
